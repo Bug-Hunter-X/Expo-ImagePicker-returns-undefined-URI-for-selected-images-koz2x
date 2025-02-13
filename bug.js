@@ -1,0 +1,1 @@
+This bug occurs when using the Expo ImagePicker library and attempting to access the image's data URI after selecting an image.  The URI is sometimes returned as undefined, causing the app to crash or behave unexpectedly. This is particularly problematic when handling multiple image selections, as the undefined URIs can disrupt the iteration process.
